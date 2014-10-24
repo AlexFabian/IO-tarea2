@@ -23,7 +23,7 @@ function vl2 = obtenerVlRecursivo(directorio, ind, firm, vl2)
                 %Se verifica que sea un archivo .mat
                 if(strcmp(ext,'.mat'))
                     firm = firm + 1;
-                    if firm ==26
+                    if firm ==25
                         firm = 1;
                     end
                     vl2{ind}{firm} = encajar(archivo);
