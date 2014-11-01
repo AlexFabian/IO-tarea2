@@ -1,0 +1,399 @@
+-------------------------------------------------------------------------
+ITERACION N: 1
+PORCENTAJE DE ENTRENAMIENTO: 25
+CALCULO DE LAS VQ
+Numero de grupos: 1
+Algoritmo Kmedias
+maximo de iteraciones,umbral fin de iteracion: 5 0.001
+CALCULO DE LAS VQ del GRUPO 1 de 1
+Numero de librerias (parametros) a generar: 1
+Numero de centroides de cada libreria: 32
+dimension de los centroides de cada libreria: 1
+Numero de vectores de entrenamiento: 15859
+CALCULO DE LA VQ del GRUPO 1 PARAMETRO 1
+Libreria de dimension: 32
+	iter.: 1	dis.: 570.329	Std: 4555.24
+		AVISO: celda 30 iniciada aleatoriamente.
+	iter.: 2,	dis.: 390.653	Std: 4212.23	Cfe: 0.459939
+	iter.: 3,	dis.: 315.158	Std: 3601.24	Cfe: 0.239547
+	iter.: 4,	dis.: 274.886	Std: 3191.84	Cfe: 0.146501
+	iter.: 5,	dis.: 254.003	Std: 2958.75	Cfe: 0.0822171
+FIN CALCULO de la libreria del grupo 1, parametro 1. Tiempo 0.689397
+
+_______________________________________________________
+
+Generacion del HMM de la clase 1, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -1027.23	Std: 141.886	Cfe: 9.73491e+06
+iter. Baum: 2,	Prob.: -681.516	Std: 77.9244	Cfe: 0.507274
+iter. Baum: 3,	Prob.: -642.798	Std: 74.3682	Cfe: 0.0602329
+iter. Baum: 4,	Prob.: -618.783	Std: 65.9905	Cfe: 0.0388106
+iter. Baum: 5,	Prob.: -612.03	Std: 61.5851	Cfe: 0.0110339
+iter. Baum: 6,	Prob.: -607.537	Std: 57.4193	Cfe: 0.00739585
+iter. Baum: 7,	Prob.: -602.617	Std: 50.8164	Cfe: 0.00816372
+iter. Baum: 8,	Prob.: -600.2	Std: 49.4475	Cfe: 0.00402657
+iter. Baum: 9,	Prob.: -598.978	Std: 49.0753	Cfe: 0.00203983
+iter. Baum: 10,	Prob.: -598.305	Std: 48.8492	Cfe: 0.00112608
+iter. Baum: 11,	Prob.: -597.749	Std: 48.4838	Cfe: 0.000929992
+FIN modelo de markov, grupo 1, clase 1.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 2, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -832.031	Std: 108.725	Cfe: 1.20188e+07
+iter. Baum: 2,	Prob.: -523.958	Std: 68.1869	Cfe: 0.587972
+iter. Baum: 3,	Prob.: -449.075	Std: 60.9677	Cfe: 0.16675
+iter. Baum: 4,	Prob.: -431.575	Std: 61.425	Cfe: 0.0405481
+iter. Baum: 5,	Prob.: -418.926	Std: 58.8411	Cfe: 0.0301928
+iter. Baum: 6,	Prob.: -407.043	Std: 56.2248	Cfe: 0.0291945
+iter. Baum: 7,	Prob.: -399.914	Std: 58.31	Cfe: 0.017826
+iter. Baum: 8,	Prob.: -396.025	Std: 60.0766	Cfe: 0.00982137
+iter. Baum: 9,	Prob.: -394.528	Std: 60.3299	Cfe: 0.00379264
+iter. Baum: 10,	Prob.: -393.899	Std: 60.2717	Cfe: 0.00159804
+iter. Baum: 11,	Prob.: -393.423	Std: 60.0943	Cfe: 0.00120998
+iter. Baum: 12,	Prob.: -392.809	Std: 59.8936	Cfe: 0.00156228
+iter. Baum: 13,	Prob.: -392.308	Std: 59.7676	Cfe: 0.00127672
+iter. Baum: 14,	Prob.: -391.836	Std: 59.5326	Cfe: 0.00120465
+iter. Baum: 15,	Prob.: -391.425	Std: 59.4578	Cfe: 0.00105031
+iter. Baum: 16,	Prob.: -390.945	Std: 59.7773	Cfe: 0.00122753
+iter. Baum: 17,	Prob.: -390.401	Std: 60.2435	Cfe: 0.00139489
+iter. Baum: 18,	Prob.: -390.328	Std: 60.3533	Cfe: 0.00018608
+FIN modelo de markov, grupo 1, clase 2.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 3, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -985.045	Std: 63.7022	Cfe: 1.01518e+07
+iter. Baum: 2,	Prob.: -736.691	Std: 66.8002	Cfe: 0.337122
+iter. Baum: 3,	Prob.: -677.57	Std: 65.3132	Cfe: 0.0872538
+iter. Baum: 4,	Prob.: -652.543	Std: 52.4634	Cfe: 0.0383543
+iter. Baum: 5,	Prob.: -641.857	Std: 54.3095	Cfe: 0.0166484
+iter. Baum: 6,	Prob.: -637.956	Std: 57.1516	Cfe: 0.00611416
+iter. Baum: 7,	Prob.: -636.398	Std: 58.1096	Cfe: 0.0024477
+iter. Baum: 8,	Prob.: -635.583	Std: 58.2609	Cfe: 0.00128236
+iter. Baum: 9,	Prob.: -634.817	Std: 58.2679	Cfe: 0.00120708
+iter. Baum: 10,	Prob.: -633.482	Std: 58.5114	Cfe: 0.00210815
+iter. Baum: 11,	Prob.: -631.656	Std: 59.6757	Cfe: 0.00288951
+iter. Baum: 12,	Prob.: -631.03	Std: 60.4972	Cfe: 0.000992037
+FIN modelo de markov, grupo 1, clase 3.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 4, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -751.36	Std: 91.0211	Cfe: 1.33092e+07
+iter. Baum: 2,	Prob.: -620.764	Std: 59.3157	Cfe: 0.210379
+iter. Baum: 3,	Prob.: -579.189	Std: 57.8699	Cfe: 0.0717807
+iter. Baum: 4,	Prob.: -568.22	Std: 59.7461	Cfe: 0.0193041
+iter. Baum: 5,	Prob.: -559.739	Std: 61.9977	Cfe: 0.0151532
+iter. Baum: 6,	Prob.: -556.781	Std: 62.8963	Cfe: 0.00531123
+iter. Baum: 7,	Prob.: -555.794	Std: 62.943	Cfe: 0.0017772
+iter. Baum: 8,	Prob.: -554.806	Std: 62.7789	Cfe: 0.00178023
+iter. Baum: 9,	Prob.: -553.374	Std: 62.0256	Cfe: 0.00258698
+iter. Baum: 10,	Prob.: -552.466	Std: 61.7049	Cfe: 0.00164446
+iter. Baum: 11,	Prob.: -551.789	Std: 61.4415	Cfe: 0.00122631
+iter. Baum: 12,	Prob.: -551.426	Std: 61.4353	Cfe: 0.000659009
+FIN modelo de markov, grupo 1, clase 4.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 5, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -542.096	Std: 81.6511	Cfe: 1.84469e+07
+iter. Baum: 2,	Prob.: -336.44	Std: 33.7874	Cfe: 0.611273
+iter. Baum: 3,	Prob.: -290.465	Std: 27.454	Cfe: 0.15828
+iter. Baum: 4,	Prob.: -276.059	Std: 23.7496	Cfe: 0.0521835
+iter. Baum: 5,	Prob.: -263.677	Std: 30.2293	Cfe: 0.0469591
+iter. Baum: 6,	Prob.: -261.747	Std: 30.7862	Cfe: 0.0073751
+iter. Baum: 7,	Prob.: -260.556	Std: 31.6203	Cfe: 0.00457096
+iter. Baum: 8,	Prob.: -259.722	Std: 32.1903	Cfe: 0.00321151
+iter. Baum: 9,	Prob.: -259.313	Std: 32.4095	Cfe: 0.00157704
+iter. Baum: 10,	Prob.: -259.138	Std: 32.5394	Cfe: 0.000673245
+FIN modelo de markov, grupo 1, clase 5.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 6, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -751.284	Std: 39.5985	Cfe: 1.33105e+07
+iter. Baum: 2,	Prob.: -508.289	Std: 41.8516	Cfe: 0.478066
+iter. Baum: 3,	Prob.: -446.848	Std: 53.1822	Cfe: 0.137499
+iter. Baum: 4,	Prob.: -430.322	Std: 47.7334	Cfe: 0.0384018
+iter. Baum: 5,	Prob.: -417.754	Std: 52.5753	Cfe: 0.030085
+iter. Baum: 6,	Prob.: -408.807	Std: 59.3675	Cfe: 0.0218867
+iter. Baum: 7,	Prob.: -401.288	Std: 63.1109	Cfe: 0.0187361
+iter. Baum: 8,	Prob.: -393.853	Std: 64.4554	Cfe: 0.0188788
+iter. Baum: 9,	Prob.: -384.941	Std: 70.085	Cfe: 0.0231515
+iter. Baum: 10,	Prob.: -382.498	Std: 73.2136	Cfe: 0.00638576
+iter. Baum: 11,	Prob.: -381.966	Std: 73.4243	Cfe: 0.00139443
+iter. Baum: 12,	Prob.: -381.57	Std: 73.4494	Cfe: 0.00103722
+iter. Baum: 13,	Prob.: -381.29	Std: 73.7454	Cfe: 0.000734703
+FIN modelo de markov, grupo 1, clase 6.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 7, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -266.561	Std: 42.1848	Cfe: 3.75149e+07
+iter. Baum: 2,	Prob.: -191.255	Std: 24.9348	Cfe: 0.393746
+iter. Baum: 3,	Prob.: -173.005	Std: 26.8162	Cfe: 0.105486
+iter. Baum: 4,	Prob.: -167.346	Std: 27.4555	Cfe: 0.0338174
+iter. Baum: 5,	Prob.: -165.06	Std: 27.4541	Cfe: 0.013849
+iter. Baum: 6,	Prob.: -163.859	Std: 27.5398	Cfe: 0.00733229
+iter. Baum: 7,	Prob.: -162.985	Std: 27.589	Cfe: 0.00536086
+iter. Baum: 8,	Prob.: -162.251	Std: 27.5387	Cfe: 0.00452368
+iter. Baum: 9,	Prob.: -161.595	Std: 27.4543	Cfe: 0.00406147
+iter. Baum: 10,	Prob.: -161.062	Std: 27.3644	Cfe: 0.00330775
+iter. Baum: 11,	Prob.: -160.703	Std: 27.3094	Cfe: 0.00223134
+iter. Baum: 12,	Prob.: -160.497	Std: 27.3318	Cfe: 0.00128545
+iter. Baum: 13,	Prob.: -160.368	Std: 27.3859	Cfe: 0.000806557
+FIN modelo de markov, grupo 1, clase 7.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 8, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -973.759	Std: 42.905	Cfe: 1.02695e+07
+iter. Baum: 2,	Prob.: -588.728	Std: 70.8776	Cfe: 0.654006
+iter. Baum: 3,	Prob.: -501.282	Std: 90.6451	Cfe: 0.174444
+iter. Baum: 4,	Prob.: -467.043	Std: 89.8557	Cfe: 0.0733104
+iter. Baum: 5,	Prob.: -412.823	Std: 45.9468	Cfe: 0.131339
+iter. Baum: 6,	Prob.: -409.651	Std: 45.8653	Cfe: 0.0077445
+iter. Baum: 7,	Prob.: -407.458	Std: 46.1169	Cfe: 0.0053823
+iter. Baum: 8,	Prob.: -406.262	Std: 47.0068	Cfe: 0.00294301
+iter. Baum: 9,	Prob.: -404.919	Std: 48.589	Cfe: 0.00331743
+iter. Baum: 10,	Prob.: -404.454	Std: 48.5995	Cfe: 0.00114862
+iter. Baum: 11,	Prob.: -404.083	Std: 48.2913	Cfe: 0.000919437
+FIN modelo de markov, grupo 1, clase 8.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 9, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -425.575	Std: 49.0505	Cfe: 2.34976e+07
+iter. Baum: 2,	Prob.: -265.126	Std: 29.2374	Cfe: 0.60518
+iter. Baum: 3,	Prob.: -235.995	Std: 30.7695	Cfe: 0.12344
+iter. Baum: 4,	Prob.: -226.705	Std: 30.8859	Cfe: 0.0409766
+iter. Baum: 5,	Prob.: -221.159	Std: 28.0331	Cfe: 0.0250795
+iter. Baum: 6,	Prob.: -219.006	Std: 27.6394	Cfe: 0.00982776
+iter. Baum: 7,	Prob.: -218.053	Std: 28.0261	Cfe: 0.00437324
+iter. Baum: 8,	Prob.: -217.491	Std: 28.6318	Cfe: 0.00258184
+iter. Baum: 9,	Prob.: -217.219	Std: 28.9752	Cfe: 0.00125125
+iter. Baum: 10,	Prob.: -217.092	Std: 29.1011	Cfe: 0.000586688
+FIN modelo de markov, grupo 1, clase 9.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 10, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -548.39	Std: 111.998	Cfe: 1.82352e+07
+iter. Baum: 2,	Prob.: -364.78	Std: 70.9454	Cfe: 0.503342
+iter. Baum: 3,	Prob.: -329.809	Std: 60.697	Cfe: 0.106034
+iter. Baum: 4,	Prob.: -316.309	Std: 62.8149	Cfe: 0.04268
+iter. Baum: 5,	Prob.: -304.352	Std: 58.7178	Cfe: 0.0392868
+iter. Baum: 6,	Prob.: -296.823	Std: 61.4507	Cfe: 0.025368
+iter. Baum: 7,	Prob.: -294.215	Std: 60.2973	Cfe: 0.00886302
+iter. Baum: 8,	Prob.: -293.128	Std: 59.6656	Cfe: 0.00370944
+iter. Baum: 9,	Prob.: -292.442	Std: 59.3589	Cfe: 0.00234322
+iter. Baum: 10,	Prob.: -291.651	Std: 59.1148	Cfe: 0.0027137
+iter. Baum: 11,	Prob.: -290.901	Std: 58.6377	Cfe: 0.00257778
+iter. Baum: 12,	Prob.: -289.991	Std: 58.1067	Cfe: 0.00313853
+iter. Baum: 13,	Prob.: -289.427	Std: 57.9437	Cfe: 0.00194891
+iter. Baum: 14,	Prob.: -289.304	Std: 57.8021	Cfe: 0.000424799
+FIN modelo de markov, grupo 1, clase 10.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 11, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -809.97	Std: 18.5132	Cfe: 1.23461e+07
+iter. Baum: 2,	Prob.: -490.866	Std: 44.3384	Cfe: 0.650085
+iter. Baum: 3,	Prob.: -424.871	Std: 17.8394	Cfe: 0.155329
+iter. Baum: 4,	Prob.: -413.115	Std: 12.6867	Cfe: 0.0284584
+iter. Baum: 5,	Prob.: -406.868	Std: 8.81649	Cfe: 0.0153532
+iter. Baum: 6,	Prob.: -403.708	Std: 7.90771	Cfe: 0.00782724
+iter. Baum: 7,	Prob.: -402.23	Std: 7.09856	Cfe: 0.003675
+iter. Baum: 8,	Prob.: -401.318	Std: 6.78641	Cfe: 0.002272
+iter. Baum: 9,	Prob.: -400.542	Std: 6.75945	Cfe: 0.00193705
+iter. Baum: 10,	Prob.: -400.058	Std: 6.90728	Cfe: 0.00120927
+iter. Baum: 11,	Prob.: -399.756	Std: 7.06289	Cfe: 0.000755019
+FIN modelo de markov, grupo 1, clase 11.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 12, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -186.433	Std: 26.1153	Cfe: 5.36387e+07
+iter. Baum: 2,	Prob.: -139.486	Std: 21.6099	Cfe: 0.336569
+iter. Baum: 3,	Prob.: -124.892	Std: 23.708	Cfe: 0.116857
+iter. Baum: 4,	Prob.: -120.93	Std: 25.1132	Cfe: 0.0327619
+iter. Baum: 5,	Prob.: -119.512	Std: 25.6313	Cfe: 0.0118637
+iter. Baum: 6,	Prob.: -118.629	Std: 26.0391	Cfe: 0.00743789
+iter. Baum: 7,	Prob.: -117.946	Std: 26.4021	Cfe: 0.00579506
+iter. Baum: 8,	Prob.: -117.357	Std: 26.6857	Cfe: 0.00502155
+iter. Baum: 9,	Prob.: -116.846	Std: 26.8607	Cfe: 0.00436634
+iter. Baum: 10,	Prob.: -116.372	Std: 26.967	Cfe: 0.00407301
+iter. Baum: 11,	Prob.: -115.94	Std: 27.0559	Cfe: 0.00372998
+iter. Baum: 12,	Prob.: -115.662	Std: 27.1151	Cfe: 0.00240774
+iter. Baum: 13,	Prob.: -115.483	Std: 27.156	Cfe: 0.00154983
+iter. Baum: 14,	Prob.: -115.318	Std: 27.1922	Cfe: 0.00142445
+iter. Baum: 15,	Prob.: -115.166	Std: 27.2293	Cfe: 0.00132114
+iter. Baum: 16,	Prob.: -115.059	Std: 27.2721	Cfe: 0.000934399
+FIN modelo de markov, grupo 1, clase 12.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 13, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -396.668	Std: 97.298	Cfe: 2.521e+07
+iter. Baum: 2,	Prob.: -211.373	Std: 52.7046	Cfe: 0.876628
+iter. Baum: 3,	Prob.: -171.069	Std: 37.3628	Cfe: 0.235603
+iter. Baum: 4,	Prob.: -160.881	Std: 34.6279	Cfe: 0.0633227
+iter. Baum: 5,	Prob.: -155.112	Std: 33.2562	Cfe: 0.0371923
+iter. Baum: 6,	Prob.: -153.362	Std: 32.2658	Cfe: 0.0114155
+iter. Baum: 7,	Prob.: -152.462	Std: 31.6061	Cfe: 0.00590074
+iter. Baum: 8,	Prob.: -151.747	Std: 31.1084	Cfe: 0.00471098
+iter. Baum: 9,	Prob.: -150.92	Std: 30.6626	Cfe: 0.00548219
+iter. Baum: 10,	Prob.: -150.039	Std: 30.3671	Cfe: 0.00587083
+iter. Baum: 11,	Prob.: -149.449	Std: 30.2218	Cfe: 0.00394449
+iter. Baum: 12,	Prob.: -149.156	Std: 30.0887	Cfe: 0.00196701
+iter. Baum: 13,	Prob.: -148.941	Std: 30.0191	Cfe: 0.00144167
+iter. Baum: 14,	Prob.: -148.734	Std: 30.0512	Cfe: 0.00139355
+iter. Baum: 15,	Prob.: -148.542	Std: 30.1528	Cfe: 0.00129497
+iter. Baum: 16,	Prob.: -148.3	Std: 30.3315	Cfe: 0.00162551
+iter. Baum: 17,	Prob.: -147.838	Std: 30.5585	Cfe: 0.00312992
+iter. Baum: 18,	Prob.: -147.45	Std: 30.6442	Cfe: 0.0026304
+iter. Baum: 19,	Prob.: -147.339	Std: 30.573	Cfe: 0.000753343
+FIN modelo de markov, grupo 1, clase 13.
+
+_______________________________________________________
+
+Generacion del HMM de la clase 14, grupo 1 del fichero vtrain.mat
+Numero de estados del modelo: 30
+Numero de parametros: 1
+Dimension de los vectores de cada parametro: 1
+Numero de simbolos por parametro: 32
+Numero de etiquetas por simbolo (Multilabeling)/parametro: 1
+maximo de iteraciones,umbral fin de iteracion: 30 0.001
+Realizaciones de entrenamiento de entrada: 6
+iter. Baum: 1,	Prob.: -611.601	Std: 131.042	Cfe: 1.63505e+07
+iter. Baum: 2,	Prob.: -253.441	Std: 67.8732	Cfe: 1.41319
+iter. Baum: 3,	Prob.: -210.808	Std: 61.9275	Cfe: 0.202234
+iter. Baum: 4,	Prob.: -202.591	Std: 61.8225	Cfe: 0.0405593
+iter. Baum: 5,	Prob.: -199.287	Std: 61.2954	Cfe: 0.0165794
+iter. Baum: 6,	Prob.: -198.437	Std: 61.3101	Cfe: 0.00428377
+iter. Baum: 7,	Prob.: -197.899	Std: 61.2474	Cfe: 0.00272059
+iter. Baum: 8,	Prob.: -197.484	Std: 61.0429	Cfe: 0.00210024
+iter. Baum: 9,	Prob.: -196.976	Std: 60.6468	Cfe: 0.00257932
+iter. Baum: 10,	Prob.: -196.02	Std: 59.8326	Cfe: 0.00487704
+iter. Baum: 11,	Prob.: -193.952	Std: 58.2016	Cfe: 0.0106627
+iter. Baum: 12,	Prob.: -191.827	Std: 56.4037	Cfe: 0.0110799
+iter. Baum: 13,	Prob.: -191.5	Std: 56.0356	Cfe: 0.0017079
+iter. Baum: 14,	Prob.: -191.403	Std: 55.9569	Cfe: 0.000503531
+FIN modelo de markov, grupo 1, clase 14.
+FIN entrenamiento de Markov.
+Parametros de entrada del fichero: vtest.mat
+Numero de clases: 14
+Numero de grupos: 1
+Numero de repeticiones primera clase: 18
+FIN test.
+Numero de clases: 14
+Numero de grupos: 1
+CLASES	  0	  1	  2	  3	  4	  5	  6	  7	  8	  9	 10	 11	 12	 13	 OK
+ 0	 18	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	100.00 %
+ 1	  0	 17	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	94.44 %
+ 2	  0	  0	 15	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	83.33 %
+ 3	  0	  0	  0	 17	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	94.44 %
+ 4	  0	 12	  0	  0	  2	  0	  0	  0	  0	  0	  4	  0	  0	  0	11.11 %
+ 5	  0	  0	  0	  0	  0	 18	  0	  0	  0	  0	  0	  0	  0	  0	100.00 %
+ 6	  0	  0	 10	  1	  0	  0	  6	  0	  0	  0	  0	  0	  0	  1	33.33 %
+ 7	  0	  3	  0	  0	  0	  0	  0	 15	  0	  0	  0	  0	  0	  0	83.33 %
+ 8	  4	  5	  0	  0	  0	  0	  0	  0	  3	  0	  4	  0	  0	  2	16.67 %
+ 9	  2	  0	  1	  4	  0	  0	  0	  0	  0	 11	  0	  0	  0	  0	61.11 %
+10	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 18	  0	  0	  0	100.00 %
+11	  1	  0	  8	  1	  0	  0	  0	  0	  0	  0	  4	  4	  0	  0	22.22 %
+12	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  8	  0	  5	  4	27.78 %
+13	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 18	100.00 %
+RECONOCIMIENTO MEDIO GRUPO 1: 66.2698
+FINALIZACION DE LA SIMULACION: 
+EL DIA: 31-Oct-2014 A LAS: 10 Horas con 59 Minutos
