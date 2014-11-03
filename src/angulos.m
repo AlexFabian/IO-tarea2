@@ -3,10 +3,9 @@ function firmaCodificada = angulos(firma)
     centroideY = mean(firma(:,2));
     [largo,~] = size(firma);
     firmaCodificada = zeros(largo,2);
-    %firmaCodificada(1,1) = firma(1,1); %el primer punto no se condificada
-    %firmaCodificada(1,2) = firma(1,2);
     x2 = centroideX;
     y2 = centroideY;
+    
     for i=2:largo
         x1 = firma(i,1) - centroideX; %actual   
         y1 = firma(i,2) - centroideY; 

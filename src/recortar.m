@@ -1,5 +1,4 @@
-function vl2 = recortar()
-    load('vl.mat');
+function vl2 = recortar(vl)
     [totalIndividuos,~] = size(vl);
     v = zeros(24,2); 
     vl2 = vl;
@@ -27,6 +26,5 @@ function vl2 = recortar()
 
             vl2{i}{j} = firma;
         end
-        %fprintf('el min del individuo %i es %i\n',i,minimo);
     end
 end

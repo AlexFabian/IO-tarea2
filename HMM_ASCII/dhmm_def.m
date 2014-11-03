@@ -7,7 +7,7 @@
 %     variables con los paremetros del HMM lisatdos en vHMM
 %     variables con los parametros del VQ listados en vVQ
 %     variables de la realizacion del TEST listados en vTEST
-% Guarda todos esos parametros en un fichero que leerá dhmm
+% Guarda todos esos parametros en un fichero que leer? dhmm
 %-------------------------------------------------------------
 function dhmm_def(fhmm)
 
@@ -29,15 +29,15 @@ ng=1;
 % cada realizacion es un grupo de vectores, y cada vector tiene
 % una serie de componentes que se agrupan en parametros
 % Se define el agrupamiento de las componentes cada vector.
-% y el numero de parametros de cada agrupación
+% y el numero de parametros de cada agrupaci?n
 % debe cumplirse que agrup{ig}=[1 .... size(vl{1,ig}{1},2)+1];
 agrup=cell(ng,1);
 Np=zeros(ng,1);
 for ig=1:ng
 %   agrup{ig}=[1 2 3];
    agrup{ig}=[1 2];
-   %número de parámetros: 1 (hace 2- 1)
-   %ojo: definición del número de parámetros eliminando el 3 de [1 2 3]
+   %n?mero de par?metros: 1 (hace 2- 1)
+   %ojo: definici?n del n?mero de par?metros eliminando el 3 de [1 2 3]
    Np(ig)=length(agrup{ig})-1;
 end
 % VARIABLES DEL HMM
@@ -83,9 +83,9 @@ A=cell(nc,ng);
 B=cell(nc,ng);
 Pi=cell(nc,ng);
 
-% VARIABLES DE DISEÑO DEL VQ
+% VARIABLES DE DISE?O DEL VQ
 vVQ=[' LBG dpztoLBG maxiterVQ umbralVQ men biblio'];
-% Parametros de diseño del  VQ
+% Parametros de dise?o del  VQ
 % Si LBG=1 se utiliza el LBG, sino el de las Kmedias.s
 LBG=0;
 % Si LBG=1, porcentaje de desplazamiento de vectores codigo.

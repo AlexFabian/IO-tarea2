@@ -1,9 +1,10 @@
 
 % Obtiene el archivo vl requerido por el HMM
 % vl{i}{j} = muestra j del individuo i
-function vl = obtenerVl(directorio)
+function obtenerVl(directorio)
     vl = {cell(24,1);cell(24,1);cell(24,1);cell(24,1);cell(24,1);cell(24,1);cell(24,1);cell(24,1);cell(24,1);cell(24,1);cell(24,1);cell(24,1);cell(24,1);cell(24,1);};
     vl = obtenerVlRecursivo(directorio, 0, 0, vl);
+    save('vl.mat', 'vl');
 end
 
 % directorio: directorio actual de la b?squeda
